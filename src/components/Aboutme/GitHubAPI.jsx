@@ -28,7 +28,7 @@ export default function Aboutme() {
       </h1>
       <div className="flex justify-center mb-5">
 
-      <img className="w-[900px]" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/304560651-e4212bbd-f7aa-4b2f-928f-08df8ed49497.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T220751Z&X-Amz-Expires=300&X-Amz-Signature=5b0aa47712d4db5e828ac761866d515a9661e342238b187ac41a602b3cbdd01a&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=723035297"></img>
+      <img className="w-[900px] mb-16" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/304566448-6fb0ec76-cebd-4e45-a556-127c3cd539f6.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T223156Z&X-Amz-Expires=300&X-Amz-Signature=482529a8a927bda82773c00cc41d384bfa3a5127a61262a169dd25b2750a3fe8&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=723035297"></img>
       </div>
       
       <ul className="grid grid-cols-2 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1 ">

@@ -27,7 +27,7 @@ export default function Projects() {
       </h1>
       <div className="flex justify-center mb-5">
 
-<img className="w-[900px] mb-10" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/304559720-ca47a9e9-a216-425d-babf-a20b0b79bad4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T215840Z&X-Amz-Expires=300&X-Amz-Signature=0773dc915b95dff12196999b08c5dd44f92c91462a0b7e6250dd0a79cc99fddc&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=723035297 "></img>
+<img className="w-[900px] mb-10" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/304566669-25f7a8f1-f00e-4d65-81e6-02e24f2affe9.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T223308Z&X-Amz-Expires=300&X-Amz-Signature=1036010f10e5f48fa6e0d0c4dbe26b3d4dd8165112022fc42ad75cbbf46d43f9&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=723035297"></img>
 </div>
       <ul className="grid grid-cols-3 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1 ">
         {data.map((item, index) => {
