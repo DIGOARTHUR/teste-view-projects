@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, React } from "react";
 import {
   useGitHubAutomatedRepos,
   ProjectIcons,
@@ -14,9 +14,9 @@ export default function Projects() {
     Aos.init({ duration: 2000 });
   }, []);
 
+ 
 
   const data = useGitHubAutomatedRepos("digoarthur", "deploy");
-
   console.log(data)
 
   return (
@@ -25,6 +25,10 @@ export default function Projects() {
         github-automated-repos
         <hr className=" border-[#FC4C54] mt-3 border-2 w-28" />
       </h1>
+      <div className="flex justify-center mb-5">
+
+<img className="w-[900px] mb-10" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/304559720-ca47a9e9-a216-425d-babf-a20b0b79bad4.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T215840Z&X-Amz-Expires=300&X-Amz-Signature=0773dc915b95dff12196999b08c5dd44f92c91462a0b7e6250dd0a79cc99fddc&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=723035297"></img>
+</div>
       <ul className="grid grid-cols-3 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1 ">
         {data.map((item, index) => {
           return (
@@ -35,8 +39,12 @@ export default function Projects() {
 
             >
               <li className="" key={item.id}>
-                {/*html Url*/}
+              
 
+               
+                {/*html Url*/}
+              {  <img className="w-[500px]" src={item.banner}/>?(<img className="w-[500px]" src={item.banner}/>):(<div></div>)}
+      
                 {/*Name Project*/}
                 <h1 className="text-2xl font-bold mb-4">{item.name}</h1>
 
