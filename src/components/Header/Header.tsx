@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
-import { GoThreeBars } from "react-icons/go";
-import { AiOutlineClose } from "react-icons/ai";
+
 export default function Header() {
 
     //https://www.youtube.com/watch?v=QzW03hyw_bU mark header automatizado
@@ -26,7 +25,7 @@ export default function Header() {
         <nav className="fixed flex justify-center z-10 w-full min-h-[96px] px-5 bg-[#201D30] ">
             <div className=" flex w-full justify-end items-center lg:hidden">
                 <a onClick={_handleNavbar}>
-                    {isOpenNavbar ? '' : <GoThreeBars size={50} />}
+                 
                 </a>
             </div>
             <div className='hidden lg:flex justify-center items-center text-2xl gap-16'>
@@ -44,7 +43,7 @@ export default function Header() {
             <div className={`absolute z-20 flex flex-col h-screen w-full bg-[#262337] gap-24 right-[-100%] transition-all ease-in-out delay-[0.1s] ${isOpenNavbar ? 'right-[0]' : ''}`}>
                 <div className=" flex  justify-end min-h-[96px] px-5 items-center lg:hidden">
                     <a onClick={_handleNavbar}>
-                        <AiOutlineClose className={isOpenNavbar ? '' : ''} size={50} />
+                     
                     </a>
                 </div>
                 <div className="flex flex-col justify-center items-center text-5xl gap-8 ">

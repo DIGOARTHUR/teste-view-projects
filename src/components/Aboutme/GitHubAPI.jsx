@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { AiOutlineLink } from "react-icons/ai";
 import Aos from "aos";
 import "aos/dist/aos.css";
 export default function Aboutme() {

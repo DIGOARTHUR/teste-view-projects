@@ -1,11 +1,10 @@
-import { AiOutlineLink } from "react-icons/ai";
 import { useEffect, useState } from "react";
 import {
-  useGithubAutomatedRepos,
+  useGitHubAutomatedRepos,
   ProjectIcons,
   StackIcons,
   IGithubRepos,
-  StackText,
+  
 } from "github-automated-repos";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -16,7 +15,7 @@ export default function Projects() {
   }, []);
 
 
-  const data = useGithubAutomatedRepos("digoarthur", "deploy");
+  const data = useGitHubAutomatedRepos("digoarthur", "deploy");
 
   console.log(data)
 

@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-[#262337];
-  @apply text-slate-50;
-  @apply font-roboto;
-}
+    @apply bg-[#262337];
+    @apply text-slate-50;
+   
+  }
