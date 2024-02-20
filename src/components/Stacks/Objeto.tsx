@@ -1,6 +1,8 @@
 import { AiOutlineLink } from "react-icons/ai";
 import { useEffect, useState, React } from "react";
 import img from '../../assets/objeto.png'
+import imgFood from '../../assets/food.png'
+import imgDashboard from '../../assets/dashboard.jpg'
 import Aos from "aos";
 import "aos/dist/aos.css";
 export default function Stacks() {
@@ -8,7 +10,7 @@ export default function Stacks() {
     const data = [{
         id:2525,
         html_url:'',
-        banner:'https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/306290427-b75f4325-4b64-435b-99fc-09b66105c022.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240220T140721Z&X-Amz-Expires=300&X-Amz-Signature=6f190b7835685da3b6f569b4cc42d318cfef780f423196a3b28d5cf123e550a4&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=756820146',
+        banner: imgFood,
         description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it',
         name:'Projeto1',
         homepage:'',
@@ -17,7 +19,7 @@ export default function Stacks() {
     {
         id:25252,
         html_url:'',
-        banner:'https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/306290417-1c000977-9ab0-4e9d-b899-74cde4c8cb1b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240220T140745Z&X-Amz-Expires=300&X-Amz-Signature=142dafd6b3ea7afa8e99cd3f05216bd024685decd797a411ee541ae56d69f5f0&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=756820146',
+        banner:imgDashboard,
         description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it',
         name:'Projeto 2',
         homepage:'',
@@ -36,7 +38,7 @@ console.log(data)
 
               <div className="flex justify-center mb-5">
 
-<img className="w-[900px] mb-12" src={img}></img>
+<img className="w-[900px] mb-12" src={img }></img>
 </div>
               <ul className="grid grid-cols-3 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1 ">
                 {data.map((item, index) => {
