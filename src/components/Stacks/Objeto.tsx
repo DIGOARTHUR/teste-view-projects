@@ -8,7 +8,7 @@ export default function Stacks() {
     const data = [{
         id:2525,
         html_url:'',
-        banner:'https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/300213078-68f59bce-0d8f-4cea-81c9-01596d97f47e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T144459Z&X-Amz-Expires=300&X-Amz-Signature=010c7db54f7ad7470fd7885e7c1a7ebbf43643b8c9c3710397a2938a3199e19e&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=585693873',
+        banner:'https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/306290427-b75f4325-4b64-435b-99fc-09b66105c022.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240220T140721Z&X-Amz-Expires=300&X-Amz-Signature=6f190b7835685da3b6f569b4cc42d318cfef780f423196a3b28d5cf123e550a4&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=756820146',
         description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it',
         name:'Projeto1',
         homepage:'',
@@ -17,7 +17,7 @@ export default function Stacks() {
     {
         id:25252,
         html_url:'',
-        banner:'https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/300213332-bfcd0785-ce8a-4327-8b8b-5de495528c3f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T150033Z&X-Amz-Expires=300&X-Amz-Signature=d048fb21b88275a08ffa66c5dd7df366ac30971e47c4a3f12555a302a7980f05&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=585693873',
+        banner:'https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/306290417-1c000977-9ab0-4e9d-b899-74cde4c8cb1b.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240220T140745Z&X-Amz-Expires=300&X-Amz-Signature=142dafd6b3ea7afa8e99cd3f05216bd024685decd797a411ee541ae56d69f5f0&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=756820146',
         description:'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it',
         name:'Projeto 2',
         homepage:'',
@@ -36,7 +36,7 @@ console.log(data)
 
               <div className="flex justify-center mb-5">
 
-<img className="w-[900px] mb-12" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/304562410-dbd21ea2-b78b-4b03-9929-1bcc6d809398.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240213%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240213T221129Z&X-Amz-Expires=300&X-Amz-Signature=11e5131e150f1b0ca1bec78774da7f77f437e0ca1f356cb474fd46bc0b25c9d8&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=723035297"></img>
+<img className="w-[900px] mb-12" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/306284348-d6d6daf5-1d01-4176-b046-3d3797ce6937.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240220T140124Z&X-Amz-Expires=300&X-Amz-Signature=ab0b5373c02daa74c43f983b629a57c0b515b6736173940300727db28374091d&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=756820146"></img>
 </div>
               <ul className="grid grid-cols-3 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1 ">
                 {data.map((item, index) => {
