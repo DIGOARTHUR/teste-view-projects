@@ -1,6 +1,11 @@
 import { useEffect, useState } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import img from '../../assets/GitHubAPI.png'
+
+
+
+
 export default function Aboutme() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -28,7 +33,7 @@ export default function Aboutme() {
       </h1>
       <div className="flex justify-center mb-5">
 
-      <img className="w-[900px] mb-16" src="https://github-production-user-asset-6210df.s3.amazonaws.com/59892368/306284352-7c676589-76a5-4739-80de-d82ae503c787.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20240220%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240220T134737Z&X-Amz-Expires=300&X-Amz-Signature=f6e6fcb65cdfce6d3252bdbfbf8dd7a78bdff8d1c07a5bb78ec6644da84e361e&X-Amz-SignedHeaders=host&actor_id=59892368&key_id=0&repo_id=756820146"></img>
+      <img className="w-[900px] mb-16" src={img}></img>
       </div>
       
       <ul className="grid grid-cols-2 gap-16 max-md:grid-cols-2  max-sm:grid-cols-1 ">
