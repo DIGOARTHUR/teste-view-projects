@@ -8,9 +8,6 @@ by: Diego Arthur
 
 
 
-...
-....
-
 
 # fonte readme
 
